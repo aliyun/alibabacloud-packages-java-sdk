@@ -39,7 +39,7 @@ dependencies {
 
 ### Usage Example
 
-Artlab Api Client is quite simeple to sue, all you need is the URL to you Artlab server and the Personal access credential from your Artlab account region setting page. Once you have that info it is as simple as:
+Artlab Api Client is quite simple to use, all you need is the URL to you Artlab server and the Personal access credential from your Artlab account region setting page. Once you have that info it is as simple as:
 
 ```java
 // Create the ArtlabApi instance to communicate with your Artlab server
