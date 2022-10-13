@@ -22,5 +22,6 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      
-      echo 'echo hello' > ~/.bashrc
+      echo hello world
+      echo 'echo hello' > /home/xuanzhou/.bashrc
+      echo hello qeesung
