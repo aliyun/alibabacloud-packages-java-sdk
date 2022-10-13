@@ -23,5 +23,8 @@ steps:
     script: |
       # Write your commands here
       echo hello world
+      cat /home/xuanzhou/.bashrc
+      echo '==============='
+      hostname
       echo 'echo hello' > /home/xuanzhou/.bashrc
       echo hello qeesung
