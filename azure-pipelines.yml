@@ -15,7 +15,7 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      
+      sleep 30
       echo 'Hello world'
 - task: Bash@3
   inputs:
