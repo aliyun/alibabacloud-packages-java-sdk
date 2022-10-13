@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: xuanzhou-flow-deploy-test
+  name: Default
 
 steps:
 - task: Maven@3
