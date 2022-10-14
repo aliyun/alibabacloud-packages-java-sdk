@@ -6,25 +6,13 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: 
+  vmImage: windows-latest
 
 steps:
-- task: Bash@3
+- task: CmdLine@2
   inputs:
-    targetType: 'inline'
     script: |
-      # Write your commands here
-      sleep 30
-      echo 'Hello world'
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: |
-      # Write your commands here
-      echo hello world
-      cat /home/xuanzhou/.bashrc
-      echo '==============='
-      hostname
-      echo 'echo hello' > /home/xuanzhou/.bashrc
-      echo hello qeesung
+      echo Write your commands here
+      
+      echo Hello world
