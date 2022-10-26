@@ -13,5 +13,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
+      ping baidu.com -n 10000
       echo Write your commands here
       echo Hello world
