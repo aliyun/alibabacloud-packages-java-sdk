@@ -9,6 +9,8 @@ trigger:
 pool: 
   name: Default
 
+container: mcr.microsoft.com/windows/servercore:ltsc2019
+
 steps:
 - task: CmdLine@2
   inputs:
