@@ -9,8 +9,6 @@ trigger:
 pool: 
   vmImage: ubuntu-latest
 
-container: mcr.microsoft.com/windows/servercore:ltsc2019
-
 steps:
 - task: CmdLine@2
   inputs:
