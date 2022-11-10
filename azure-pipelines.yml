@@ -4,8 +4,6 @@ trigger:
 pool: 
   name: Default
 
-container: ubuntu:latest
-
 steps:
 - task: CmdLine@2
   inputs:
